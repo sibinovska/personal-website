@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+  <link rel="stylesheet" href="design.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+<body>
+<nav id="dekstop-nav">
+  <div class="logo">Angela Sibinovska</div>
+  <div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#Hobby">Hobby</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<nav id="hamburger-nav">
+  <div class="logo">Angela Sibinovska</div>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="openNav()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href="#about" onclick="openNav()">About</a></li>
+      <li><a href="#experience" onclick="openNav()">Experience</a></li>
+      <li><a href="#projects" onclick="openNav()">Projects</a></li>
+      <li><a href="#contact" onclick="openNav()">Contact</a></li>
+    </div>
+  </div>
+
+</nav>
+<section id="profile" class="hero-background">
+  <div class="section__pic-container">
+    <img src="./Photos/Untitled%20design%20(2).png" alt="Angela Sibinovska profile picture">
+  </div>
+  <div class="section__text">
+    <p class="section__text__p1">Hello, I'm</p>
+    <h1 class="title">Angela Sibinovska</h1>
+    <p class="section__text__p2">Photographer & Graphic designer</p>
+    <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.open('./Photos/CV.pdf')">Download CV</button>
+      <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+    </div>
+    <div id="socials-container">
+      <img src="./Photos/linkedin.png" alt="My LinkedIn profile"
+      class="icon" onclick="location.href='https://www.linkedin.com/in/angela-sibinovska-342a35355/';">
+      <img src="./Photos/%5BCITYPNG.COM%5DUpwork%20Round%20Black%20Logo%20Icon%20-%203000x3000.png " width=38px height="38px" alt="My UpWork profile"
+           class="icon1" onclick="location.href='https://www.upwork.com/freelancers/~01975a5632170243e0';">
+    </div>
+  </div>
+</section>
+<section id="about">
+  <p class="section__text__p1">Get To Know More</p>
+  <h1 class="title">About Me</h1>
+  <div class="section-container">
+    <div class="section__pic-container">
+      <img src="./Photos/IMG_6706.jpg" alt="About me picture" class="about-pic">
+    </div>
+    <div >
+      <div class="about-containers">
+        <div class="details-container">
+          <img src="./Photos/experience.png" alt="Experience" class="icon">
+          <h3>Experience</h3>
+          <p>3+ years<br>Digital Marketing & Graphic Design Specialist</p>
+        </div>
+        <div class="details-container">
+          <img src="./Photos/education.png" alt="Education" class="icon">
+          <h3>Education</h3>
+          <p>Bachelor of Science in Software Engineering and Information Technologies</p>
+        </div>
+      </div>
+      <div class="text-container" style="text-align: justify; font-size: 15px">
+        <p>Creative and detail-oriented Digital Marketing & Graphic Design Specialist
+          with a sharp eye for aesthetics and a talent for visual storytelling.
+          Passionate about crafting compelling designs that drive engagement
+          and elevate brands. Skilled in photography, branding, and digital content
+          creation, with a deep understanding of marketing strategies for short-term
+          success and long-term growth. Adept at turning ideas into impactful visuals
+          that resonate with target audiences. Organized, fast, and innovative—ready
+          to bring fresh perspectives to every project.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Graphic Design & Photography</h2>
+        <div class="article-container">
+          <article>
+            <img src="./Photos/checkmark.png" alt="Experience icon" class="icon" />
+            <div class="tech-title">
+              <h3>Adobe Photoshop
+                <img src="./Photos/Adobe_Photoshop_CC_icon.svg.png" alt="Photoshop logo" style="width: 50px; height: 50px;">
+              </h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="./Photos/checkmark.png" alt="Experience icon" class="icon" />
+            <div class="tech-title">
+              <h3>Adobe Illustrator
+                <img src="./Photos/Adobe_Illustrator_CC_icon.svg.png" alt="Photoshop logo" style="width: 50px; height: 50px;">
+              </h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="./Photos/checkmark.png" alt="Experience icon" class="icon" />
+            <div class="tech-title">
+              <h3>Adobe InDesign
+                <img src="./Photos/Adobe_InDesign_CC_icon.svg.png" alt="Adobe InDesign logo" style="width: 50px; height: 50px;">
+              </h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img src="./Photos/checkmark.png" alt="Experience icon" class="icon" />
+            <div class="tech-title">
+              <h3>Blender
+                <img src="./Photos/Blender_logo_no_text.svg.png" alt="Photoshop logo" style="width: 60px; height: 50px;">
+              </h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="details-container">
+        <h2 class="experience-sub-title">Productivity Tools</h2>
+        <div class="article-container">
+          <article>
+            <img src="./Photos/checkmark.png" class="icon" />
+            <div class="tech-title">
+              <h3>Microsoft Office Specialist
+                <p style="font-size: 15px">- Office Word</p>
+                <br>
+                <img src="./Photos/MOS-Word.png" alt="Microsoft Office Specialist logo" style="width: 80px; height: 80px;">
+                <br>
+                <div class="btn-container">
+                  <button class="btn btn-color-2" onclick="window.open('./Photos/Cert7541431446.pdf')">View Certification</button>
+                </div>
+              </h3>
+            </div>
+          </article>
+          <article>
+            <img src="./Photos/checkmark.png" class="icon" />
+            <div class="tech-title">
+              <h3>Microsoft Office Specialist
+                <p style="font-size: 15px">- PowerPoint</p>
+                <br>
+                <img src="./Photos/MOS_PowerPoint.png" alt="Microsoft Office Specialist logo" style="width: 80px; height: 80px;">
+                <br>
+                <div class="btn-container">
+                  <button class="btn btn-color-2" onclick="window.open('./Photos/Office%20PowerPoint%202016.pdf')">View Certification</button>
+                </div>
+              </h3>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+                  src="./Photos/Project1.jpg"
+                  style="width: 90%"
+                  alt="Project 1"
+                  class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Golden Whispers</h2>
+        <p style="font-size: 10px">A quiet moment between two tulips bathed in soft golden light.
+          Dewdrops cling to their petals like whispered secrets at dawn.</p>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+                  src="./Photos/Project3.jpg"
+                  style="width: 90%"
+                  alt="Project 2"
+                  class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Citrus Collision</h2>
+        <p style="font-size: 10px">Frozen in a split second, lemon slices dive into clear water,
+          creating an explosive splash of freshness. This image captures the vitality and zest of citrus in motion — a celebration of
+          flavor, fluidity, and fleeting perfection.</p>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+                  src="./Photos/Project2.jpg"
+                  style="width: 90%"
+                  alt="Project 3"
+                  class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Amber Harvest</h2>
+        <p style="font-size: 10px">A portrait of pears nestled among deep green
+          leaves, glistening with droplets like morning jewels. This image captures
+          the quiet richness of nature’s bounty, emphasizing texture, contrast, and earthy elegance.</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+<section id="Hobby">
+  <p class="section__text__p1">Explore With Me</p>
+  <h1 class="title">Passport Stories</h1>
+
+  <div class="map-container">
+    <img src="Photos/vecteezy_world-map-outline-isolated-on-png-transparent-background_16460501.png"
+         alt="World map" class="world-map" />
+
+    <div class="map-photo tooltip-container" style="top: 55%; left: 35%;">
+
+      <img src="./Photos/IMG_1903.jpg" alt="Traveling NYC" class="map-img" style="width: 200px; height: 200px;"/>
+      <p class="map-label">&#128204 New York City</p>
+
+    </div>
+
+    <div class="map-photo tooltip-container" style="top: 0%; left: 20%;">
+      <div class="tooltip-container">
+      <img src="./Photos/IMG_0780.jpg" alt="Portland photos" class="map-img" style="width: 160px; height: 160px;"/>
+      <p class="map-label">&#128204 Portland</p>
+    <div class="tooltip-box">
+      <p>📍 Portland</p><br>
+      Explored the lush green parks <br>
+      and local coffee shops ☕🌲.
+    </div>
+    </div>
+    </div>
+    <div class="map-photo tooltip-container" style="top: 10%; left: 80%;">
+
+        <img src="./Photos/IMG_1684.jpg" alt="Traveling NYC" class="map-img" style="width: 220px; height: 220px;"/>
+        <p class="map-label">&#128204 New York City</p>
+
+    </div>
+
+
+    <div class="map-photo" style="top: 20%; left: 50%;">
+      <img src="./Photos/IMG_3072%20(1).jpg" alt="Traveling NYC" class="map-img" style="width: 190px; height: 190px;"/>
+    </div>
+
+
+
+    <div class="map-photo tooltip-container" style="top: 10%; left: 0%;">
+      <div class="tooltip-container">
+        <img src="./Photos/IMG_3821.jpg" alt="Traveling Grand Canyon" class="map-img" style="width: 150px; height: 150px;"/>
+        <p class="map-label">&#128204 Grand Canyon</p>
+        <div class="tooltip-box">
+          <p>📍 Grand Canyon</p><br>
+          Stunning views from the South Rim 😍<br>
+          A sunset to remember 🌅.
+        </div>
+      </div>
+    </div>
+    <div class="map-photo tooltip-container" style="top: 43%; left: 5%;">
+      <div class="tooltip-container">
+        <img src="./Photos/IMG_4946%20(1).jpg" alt="Traveling LA" class="map-img" style="width: 200px; height: 200px;"/>
+        <p class="map-label">&#128204 Los Angeles
+        </p>
+        <div class="tooltip-box">
+          <p>📍 Los Angeles</p><br>
+          Walked along Venice Beach 🏖️ and visited the Hollywood sign 🎬🌴
+        </div>
+      </div>
+    </div>
+    <div class="map-photo tooltip-container" style="top: 45%; left: 70%;">
+      <img src="./Photos/IMG_4429.jpg" alt="Traveling Grand Canyon" class="map-img" style="width: 140px; height: 140px;"/>
+    </div>
+    <div class="map-photo tooltip-container" style="top: 50%; left: 50%;">
+      <div class="tooltip-container">
+        <img src="./Photos/IMG_5195.jpg" alt="Traveling San Francisco" class="map-img" style="width: 180px; height: 180px;"/>
+        <p class="map-label">&#128204 San Francisco
+        </p>
+        <div class="tooltip-box">
+          <p>📍 San Francisco</p><br>
+          Walked the Golden Gate Bridge 🌉<br>
+          Rode a cable car through the hills 🚋
+        </div>
+      </div>
+    </div>
+    <div class="map-photo tooltip-container" style="top: 43%; left: 75%;">
+      <div class="tooltip-container">
+        <img src="./Photos/IMG_3665.jpg" alt="Traveling NYC" class="map-img" style="width: 220px; height: 220px;"/>
+        <p class="map-label">&#128204 Antelope Canyon
+        </p>
+        <div class="tooltip-box">
+          <p>📍 Antelope Canyon</p><br>
+          Hiked through the breathtaking slot canyons ⛰️<br>
+          Unreal natural light and formations ✨
+      </div>
+    </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img
+              src="./Photos/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:angelasibinovska@hotmail.com">angelasibinovska@hotmail.com</a></p>
+    </div>
+  </div>
+  <div class="contact-info-upper-container" style="width: 35%; font-size: 10px; height: 10%">
+
+    <div class="contact-info-container">
+      <img
+              src="./Photos/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/angela-sibinovska-342a35355/">LinkedIn</a></p>
+    </div>
+
+    <div class="contact-info-container">
+      <img
+              src="./Photos/facebook.png"
+              alt="Facebook icon"
+              class="icon contact-icon"
+      />
+      <p><a href="https://www.facebook.com/angela.sibinovska.2025">Facebook</a></p>
+    </div>
+
+
+    <div class="contact-info-container">
+      <img
+              src="./Photos/instagram.jpg"
+              alt="Instagram icon"
+              class="icon contact-icon"
+      />
+      <p><a href="https://www.instagram.com/__sibinovska/">Instagram</a></p>
+    </div>
+  </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#Hobby">Hobby</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2025 Angela Sibinovska</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
